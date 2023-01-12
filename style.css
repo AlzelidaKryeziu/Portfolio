@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto&display=swap');
+
+
+*{
+    font-family: 'Bitter', serif;
+    color: aliceblue;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('bg-img.avif');
+    background-size: cover;
+}
+
+h1, h2, .title{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title #logo {
+    font-size: 50px;
+    font-weight: 600;
+}
+
