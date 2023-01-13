@@ -39,6 +39,16 @@ body{
     background-color: var(--fifth-color);
 }
 
+.side{
+    display: flex;
+    left: 5px;
+    position:fixed;
+    bottom: 100px;
+    padding: 30px;
+    margin: auto;
+}
+
+
 section{
     flex-direction: column;
     display: flex;
