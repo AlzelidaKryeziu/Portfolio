@@ -3,7 +3,7 @@
 :root {
     --primary-color: #FEFBF6;
     --second-color: #cbdbec;
-    --third-color: #00ABB3;
+    --third-color: #f0f8ff;
     --fourth-color: #B2B2B2;
     --fifth-color: #3C4048;
 }
@@ -26,13 +26,17 @@ nav li {
     display: flex;
     display: inline;
     font-size: 20px;
-    color: aliceblue;
+    color: var(--second-color);
     padding: 10px 14px;
   }
 
+.cv-button:hover{
+    background-color: var(--fourth-color);
+    outline: none;
+}
 
 body{
-    background-color: darkblue;
+    background-color: var(--fifth-color);
 }
 
 section{
@@ -64,4 +68,12 @@ h1, h2, .title{
 
 .hero aside {
     flex: 1;
+}
+
+aside{
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+    padding: 50px;
 }
