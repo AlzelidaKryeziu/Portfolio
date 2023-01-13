@@ -1,51 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto&display=swap');
 
+:root {
+    --primary-color: #FEFBF6;
+    --second-color: #cbdbec;
+    --third-color: #00ABB3;
+    --fourth-color: #B2B2B2;
+    --fifth-color: #3C4048;
+}
 
 *{
     font-family: 'Bitter', serif;
-    color: aliceblue;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    height: 40px;
     display: flex;
-    height: 50px;
-    background: fixed;
+    justify-content: end;
+    position: fixed;
+    width: 100%;
   }
 
 nav li {
     display: flex;
     display: inline;
     font-size: 20px;
-    margin-right: 30px;
     color: aliceblue;
     padding: 10px 14px;
   }
 
-#floatright{
-    position: absolute;
-    top: 4px;
-    right: 5px;
-}
 
 body{
-    background-image: url('bg-img.jpg');
-    background-size: cover;
+    background-color: darkblue;
 }
 
-.title{
+section{
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
     height: 100vh;
-    
 }
 
 h1, h2, .title{
-    width: 300px;
-    margin: auto;
     text-align: center;
 }
 
@@ -54,3 +53,15 @@ h1, h2, .title{
     font-weight: 550;
 }
 
+.hero {
+    flex-direction: row;
+}
+
+.hero img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.hero aside {
+    flex: 1;
+}
