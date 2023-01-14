@@ -104,7 +104,7 @@ h3 #int{
     margin-top: 10%;
 }
 
-aside{
+aside .about-me{
     text-align:center;
     justify-content: center;
     align-content: center;
@@ -133,16 +133,22 @@ h3{
 
 .achievements{
     display: flex;
+    flex-direction: row;
+    margin-top: 0;
 }
 
 .Education{
     flex: 1;
+    margin-top: 0;
 }
 
 .Skills{
     flex: 1;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.Skills .Professional-skills{
-    
+.Professional-skills, .Personal-skills{
+    flex: 1;
 }
