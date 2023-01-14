@@ -6,6 +6,7 @@
     --third-color: #f0f8ff;
     --fourth-color: #B2B2B2;
     --fifth-color: #3C4048;
+    --sixth-color:#ddcacf53;
 }
 
 *{
@@ -16,6 +17,8 @@
 }
 
 header {
+    height: 40px;
+    background-color: var(--sixth-color);
     display: flex;
     justify-content: end;
     position: fixed;
@@ -128,61 +131,18 @@ h3{
     }
 }
 
-#achievments-id{
-    flex-direction: row;
-}
-
-.achievments .Education .data{
+.achievements{
     display: flex;
-    flex-direction: column;
 }
 
-.achievments .Education .data .year{
-    padding-right: 35px;
-    position: relative;
-    width: 50%;
+.Education{
+    flex: 1;
 }
 
-.achievments .Education .data .content{
-    padding-left: 35px;
+.Skills{
+    flex: 1;
 }
 
-.achievments .Education .data .year:before{
-    content: "";
-    position:absolute;
-    top: 5px;
-    right: 0px;
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    border: 1px solid #2625ed;
-    border-radius: 50%;
-}
-
-.achievments .Education .data .year:after{
-    content: "";
-    position: absolute;
-    top: 17px;
-    right: 4px;
-    width: 3px;
-    height: 90%;
-    background: #0175b2;
-}
-
-.achievments .Education .data:last-child .year:after{
-    display: none;
-}
-#skills-id{
-    display: flex;
-    flex-direction: column;
-    flex: 100%;
-}
-
-.skills .Professional-skills{
-    background-color: blue;
-    flex:1;
-}
-.skills .Personal-skills{
-    background-color: green;
-    flex:1;
+.Skills .Professional-skills{
+    
 }
