@@ -80,10 +80,71 @@ h1, h2, .title{
     flex: 1;
 }
 
+.interests aside{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.interests .hobby{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+h3 #int{
+    display: flex;
+    text-align: center;
+}
+
+#int{
+    margin-top: 10%;
+}
+
 aside{
     text-align:center;
     justify-content: center;
     align-content: center;
+    margin-top: 15%;
+}
+
+aside,p{
     margin-top: 10%;
-    padding: 50px;
+}
+
+h3{
+    animation: 3s 1 alternate slidein;
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.achievments{
+    display: flex;
+    order: 3;
+    flex-direction: column;
+}
+
+.achievments .Education{
+    background-color: red;
+    width: 100%;
+}
+
+.achievments .Professional-skills{
+    background-color: blue;
+    flex: 0 0 50%;
+}
+
+.achievments .Personal-skills{
+    background-color: green;
+    flex: 0 0 50%;
 }
