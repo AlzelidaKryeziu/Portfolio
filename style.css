@@ -23,6 +23,8 @@ header {
     justify-content: end;
     position: fixed;
     width: 100%;
+    align-items: center;
+    
   }
 
 nav li {
@@ -104,16 +106,12 @@ h3 #int{
     margin-top: 10%;
 }
 
-aside .about-me{
+.about-me{
     text-align:center;
-    justify-content: center;
-    align-content: center;
-    margin-top: 15%;
+    padding: 10px;
+    margin: auto;
 }
 
-aside,p{
-    margin-top: 10%;
-}
 
 h3{
     animation: 3s 1 alternate slidein;
