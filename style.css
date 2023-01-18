@@ -137,16 +137,25 @@ h3{
 
 .Education{
     flex: 1;
-    margin-top: 0;
+    padding: 20px;
+}
+
+article{
+    display: flex;
+}
+
+article .year{
+    flex: 1;
+}
+
+article .content{
+    flex: 2;
 }
 
 .Skills{
     flex: 1;
-    margin-top: 0;
+    margin-top: 2px;
     display: flex;
     flex-direction: column;
 }
 
-.Professional-skills, .Personal-skills{
-    flex: 1;
-}
