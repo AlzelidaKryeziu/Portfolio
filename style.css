@@ -7,6 +7,8 @@
     --fourth-color: #B2B2B2;
     --fifth-color: #3C4048;
     --sixth-color:#ddcacf53;
+    --seventh-color:#d3d3d3;
+    --eighth-color:#0175b2;
 }
 
 *{
@@ -137,12 +139,14 @@ h3{
 
 .Education{
     flex: 1;
-    padding: 20px;
+    padding: 60px;
+    
+    
 }
 .Edu{
     display: block;
 }
-article{
+.Education article{
     margin-top: 30px;
     display: flex;
 }
@@ -159,17 +163,77 @@ article .content{
 text-align: center;
 }
 
+#art{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
 .Skills{
     flex: 1;
-    margin-top: 2px;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 60px;
+    
 }
 
-.Professional-skills{
-    flex: 1;
+.skills-left{
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.Personal-skills{
-    flex: 2;
+.skills-bar{
+    border: 2px solid var(--eighth-color);
+    height: 10px;
+    background-color: var(--primary-color);
+    
+}
+
+.skills-bar .html{
+    width: 40%;
+    height: 100%;
+    background-color: var(--eighth-color);
+}
+
+.skills-bar .python{
+    width: 40%;
+    height: 100%;
+    background-color: var(--eighth-color);
+}
+
+.skills-bar .css{
+    width: 35%;
+    height: 100%;
+    background-color: var(--eighth-color);
+}
+
+.skills-bar .js{
+    width: 25%;
+    height: 100%;
+    background-color: var(--eighth-color);
+}
+
+.skills-bar .punctuality{
+    width: 75%;
+    height: 100%;
+    background-color: var(--eighth-color);
+}
+
+.skills-bar .teamwork{
+    width: 65%;
+    height: 100%;
+    background-color: var(--eighth-color);
+}
+
+.skills-bar .organization{
+    width: 45%;
+    height: 100%;
+    background-color: var(--eighth-color);
+}
+
+.skills-bar .creativity{
+    width: 55%;
+    height: 100%;
+    background-color: var(--eighth-color);
 }
