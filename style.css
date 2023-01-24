@@ -198,6 +198,10 @@ text-align: center;
     justify-content: center;
 }
 
+.Personal-skills {
+    margin-top: 15px;
+}
+
 .skills-left{
     display: flex;
     justify-content: space-between;
@@ -349,10 +353,6 @@ text-align: center;
 
     .Education {
         padding: 20px;
-    }
-
-    .Personal-skills {
-        margin-top: 10px;
     }
 }
   
